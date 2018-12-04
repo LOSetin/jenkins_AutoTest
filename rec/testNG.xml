@@ -1,1 +1,10 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="regression">
+    <test name="all_regression">
+    <packages><package name="testcase"></package></packages>
+    </test>
+    <test name="part_regression">
+        <classes></classes>
+    </test>
+</suite>
